@@ -17,6 +17,13 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>minetrone-repository</id>
+            <url>https://repo.minetrone.com/releases</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
